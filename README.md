@@ -1,5 +1,11 @@
 # Templating With Pug
 
+![](https://img.shields.io/badge/modularity-nodejs-green.svg)
+![](https://img.shields.io/badge/routing-express-orange.svg)
+![](https://img.shields.io/badge/templating-pug-red.svg)
+![](https://img.shields.io/badge/mvp-working-green.svg)
+![](https://img.shields.io/badge/bonus-wip-red.svg)
+
 ## Introduction
 
 ### What is a templating engine?
@@ -42,8 +48,8 @@ You have decided to finally pursue your life long dream of becoming a baker. Aft
 - [x] Set up a simple Express server with three routes; `/`, `/about` and `/inventory`. Each route should render the corresponding pug file.
 - [x] Be sure to set Express' view engine to use Pug.
 - [x] Using the `include` keyword, insert the `nav.pug` partial into each of the pug files.
-- [ ] In `about.pug`, create a variable to store the current date and time using the JavaScript `Date()` method. Using Pug's string interpolation, insert the date variable into a paragraph tag which should read: `Today's date is Sun Feb 19 2017 14:36:06 GMT-0600 (CST).`;
-- [ ] In `server.js`, create a variable that stores an array of at least 5 objects. Each object should contain a name and a price for a pastry. Using the `res.render()` method, send the array to the template. Using Pug's iteration methods, display each pastry as a single paragraph tag, e.g: `Blueberry Muffin: 1.59 each`
+- [x] In `about.pug`, create a variable to store the current date and time using the JavaScript `Date()` method. Using Pug's string interpolation, insert the date variable into a paragraph tag which should read: `Today's date is Sun Feb 19 2017 14:36:06 GMT-0600 (CST).`;
+- [x] In `server.js`, create a variable that stores an array of at least 5 objects. Each object should contain a name and a price for a pastry. Using the `res.render()` method, send the array to the template. Using Pug's iteration methods, display each pastry as a single paragraph tag, e.g: `Blueberry Muffin: 1.59 each`
 - [x] Using Pug's conditional syntax in `nav.pug`, write logic to determine which page is currently being displayed and only render the pages which are not being viewed.
 
 ## Bonus
