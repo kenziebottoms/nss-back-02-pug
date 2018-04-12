@@ -1,13 +1,8 @@
-doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet',href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
-    link(rel='stylesheet',href='public/style.css')
-  body
-    div(class='sidebar', style='background-image:url("'+image+'"')
-    div(class='content')
-      h1!= title
-      p= content
-      p= dateTime
-      include nav.pug
+extends layout.pug
+
+block content
+  h1!= title
+  p= content
+  if dateTime
+    p= dateTime
+  include nav.pug

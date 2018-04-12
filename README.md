@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/routing-express-orange.svg)
 ![](https://img.shields.io/badge/templating-pug-red.svg)
 ![](https://img.shields.io/badge/mvp-working-green.svg)
-![](https://img.shields.io/badge/bonus-wip-red.svg)
+![](https://img.shields.io/badge/bonus-working-green.svg)
 
 ## Run locally
 
@@ -63,10 +63,10 @@ You have decided to finally pursue your life long dream of becoming a baker. Aft
 
 ## Bonus
 
-- [ ] Create a `layout.pug` in the `views` directory. By using the `extends` and `block` keywords, we can create a single pug file that will act as a parent template and can be inherited, or `extended` in a child template.
-    - [ ] The `layout.pug` should contain the `html`, `head`, and `body` tags. 
-    - [ ] It can also `include` the `nav.pug` since `layout.pug` can be extended in each of our files.
-- [ ] Restructure `index.pug`, `about.pug` and `inventory.pug` to inherit `layout.pug`.
+- [x] Create a `layout.pug` in the `views` directory. By using the `extends` and `block` keywords, we can create a single pug file that will act as a parent template and can be inherited, or `extended` in a child template.
+    - [x] The `layout.pug` should contain the `html`, `head`, and `body` tags. 
+    - [x] It can also `include` the `nav.pug` since `layout.pug` can be extended in each of our files.
+- [x] Restructure `index.pug`, `about.pug` and `inventory.pug` to inherit `layout.pug`.
     HINT: Be sure to use the `block content` keywords in `layout.pug` where each child pug file will be shown.
 
 ## Additional Reading
