@@ -6,6 +6,15 @@
 ![](https://img.shields.io/badge/mvp-working-green.svg)
 ![](https://img.shields.io/badge/bonus-wip-red.svg)
 
+## Run locally
+
+```bash
+git clone git@github.com:kenziebottoms/nss-back-02-pug.git
+cd nss-back-02-pug
+npm install
+npm start
+```
+
 ## Introduction
 
 ### What is a templating engine?
