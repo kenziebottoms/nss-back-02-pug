@@ -1,0 +1,26 @@
+{
+  "name": "pug",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenziebottoms/nss-back-02-pug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenziebottoms/nss-back-02-pug/issues"
+  },
+  "homepage": "https://github.com/kenziebottoms/nss-back-02-pug#readme"
+}
