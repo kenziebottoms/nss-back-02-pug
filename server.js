@@ -9,6 +9,17 @@ app.set('view engine', 'pug');
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
+// navigation middleware
+app.use((req, res, next) => {
+    res.locals.nav = {
+        home: '/',
+        about: '/about',
+        inventory: '/inventory'
+    };
+    res.locals.url = req.url;
+    next();
+});
+
 app.get('/', (req, res, next) => {
     res.render('default', {
         title: 'Loafing Around',

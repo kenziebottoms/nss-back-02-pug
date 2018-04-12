@@ -1,0 +1,5 @@
+div(class='nav')
+  ul
+    each val, index in nav
+      li(class=(url == val ? "active" : ""))
+        a(href=val)= index

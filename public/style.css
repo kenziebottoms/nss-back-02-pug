@@ -1,6 +1,9 @@
 body {
   box-sizing: border-box;
   max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
 }
 .col {
   box-sizing: border-box;
@@ -21,10 +24,26 @@ body {
 table {
   width: auto;
   display: inline-block;
+  margin-bottom: 1rem;
 }
 td {
   padding-right: 3rem;
 }
 td:nth-child(2) {
   color: rgb(192, 133, 85);
+}
+.nav {
+  list-style-type: none;
+  padding: 1rem 0;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+.nav li.active {
+  display: none;
 }
