@@ -2,11 +2,11 @@
 
 ## Introduction
 
-#### What is a templating engine?
+### What is a templating engine?
 
 A template engine enables you to use static template files in your application. At runtime, the template engine first parses the template. This allows embedded JavaScript expressions and variables to be evaluated and then transformed into an HTML file which is sent to the client. This approach creates the ability to pipe data from the server to the template, so it can then be parsed and sent to the client.
 
-#### Pug
+### Pug
 
 Pug is a clean, whitespace sensitive syntax for writing html. We will be using the Pug templating engine with our Express server. Check out the [PugJs docs](https://pugjs.org/api/getting-started.html) for more information.
 
