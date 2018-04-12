@@ -1,5 +1,11 @@
+doctype html
 html
   head
     title= title
-  body
-    h1= message
+    link(rel='stylesheet',href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+    link(rel='stylesheet',href='public/style.css')
+  body(class='row')
+    div(class='sidebar col-5', style='background-image:url("'+image+'"')
+    div(class='content col-7')
+      h1!= title
+      p= bio

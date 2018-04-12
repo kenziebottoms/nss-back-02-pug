@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.col {
+  box-sizing: border-box;
+}
+.sidebar {
+  padding: 2rem;
+  color: #fff;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.content {
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
