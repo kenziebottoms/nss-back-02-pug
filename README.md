@@ -32,8 +32,8 @@ pug_practice/
 You have decided to finally pursue your life long dream of becoming a baker. After renting a space near the local town square, buying all necessary equipment, and hiring your younger sibling to work for you, the bakery is ready to open. Unfortunately, there isn't much money left, so you decide to build a simple website on your own. You have decided on the following, minimal features:
 
 - [x] A home page that displays the bakery's name, a picture and a short bio.
-- [ ] An about page with a bio of yourself and the company's slogan.
-- [ ] An inventory page which would list the most popular pastries along with their prices.
+- [x] An about page with a bio of yourself and the company's slogan.
+- [x] An inventory page which would list the most popular pastries along with their prices.
 - [ ] A simple nav bar which does not display a link to the current page, but only the pages not being viewed.
     e.g: If the URL is currently `localhost:8080/about` only `Home` and `Inventory` links should be shown.
 

@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet',href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+    link(rel='stylesheet',href='public/style.css')
+  body(class='row')
+    div(class='sidebar col-4', style='background-image:url("'+image+'"')
+    div(class='content col-8')
+      h1!= title
+      table
+        each val, index in menu
+          tr
+            td= index
+            td= val
+            

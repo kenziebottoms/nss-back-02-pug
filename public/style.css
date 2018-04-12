@@ -18,3 +18,13 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+table {
+  width: auto;
+  display: inline-block;
+}
+td {
+  padding-right: 3rem;
+}
+td:nth-child(2) {
+  color: rgb(192, 133, 85);
+}
